@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngzeeshan"
+    android:orientation="vertical"
+    tools:context="com.example.hp.ecompetencia_2018.GamesSchedule">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="0dp"
+        android:rowCount="2">
+
+
+        <!-- 1row 1col-->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="1dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageBtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cst" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 1row 2col-->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="1dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fifat" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 2row 1col-->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="1dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageBtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nfst" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <!-- 1row 2col-->
+
+        <android.support.v7.widget.CardView
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_rowWeight="1"
+            android:padding="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="1dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageBtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/chesst" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </GridLayout>
+
+</LinearLayout>

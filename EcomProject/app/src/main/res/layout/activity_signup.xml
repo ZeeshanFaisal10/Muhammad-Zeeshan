@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pngzeeshan"
+    tools:context="com.example.hp.ecompetencia_2018.SignupActivity">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_weight="1"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ecomnoshadowtwo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <EditText
+            android:layout_width="330dp"
+
+            android:id="@+id/s_user"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:defaultFocusHighlightEnabled="true"
+            android:fontFamily="sans-serif"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:layout_marginLeft="5px"
+            android:paddingRight="5px"
+            android:paddingLeft="5px"
+            android:layout_marginRight="5px"
+            android:layout_marginBottom="1px"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorHighlight="@android:color/holo_red_light"
+            />
+        <EditText
+            android:id="@+id/s_pass"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:defaultFocusHighlightEnabled="true"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="5px"
+            android:paddingRight="5px"
+            android:paddingLeft="5px"
+            android:inputType="textPassword"
+            android:layout_marginRight="5px"
+            android:layout_marginBottom="1px"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorHighlight="@android:color/holo_red_light"
+            />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/s_cnfpass"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Confirm Password"
+            android:defaultFocusHighlightEnabled="true"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:layout_marginLeft="5px"
+            android:paddingRight="5px"
+            android:paddingLeft="5px"
+            android:layout_marginRight="5px"
+            android:layout_marginBottom="5px"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorHighlight="@android:color/holo_red_light"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/s_sign"
+                android:layout_width="160dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/rec_button"
+                android:layout_marginBottom="5px"
+                />
+            <TextView
+                android:id="@+id/txt_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have account? Login"
+                android:clickable="true"
+
+                android:textAlignment="center"
+                android:paddingTop="3dp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prg_bar"
+        />
+
+</LinearLayout>
+
